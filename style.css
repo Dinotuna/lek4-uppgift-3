@@ -1,0 +1,83 @@
+body{
+    background-image: url(./img/winter_bg3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+header{
+    display: flex;
+    grid-column: 1/4;
+    justify-content: space-between;
+}
+
+header h1{
+    background-color: darkslategray;
+    color: #F6E9DC;
+    border: 2px solid orange;
+    text-align: center;
+    padding: 30px;
+    padding-left: 500px;
+    padding-right: 500px;
+    margin: 10px
+}
+
+nav{
+    grid-column: 2/3;
+    background-color: darkslategrey;
+    border: 2px solid yellow;
+    color: white;
+    padding-right: 500px;
+    margin: 50px;
+
+}
+
+.julafton{
+    color: gray;
+    background-color: white;
+}
+
+.newyear{
+    background-color: yellowgreen;
+}
+
+section{
+    background-color: #F6E9DC;
+    grid-column: 2/3;
+    grid-row: 3/3;
+    padding: 10px;
+}
+
+section h2{
+    border: 2px solid orangered;
+    background-color: gray;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.kalendergrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+section h1{
+    text-align: center;
+    border: 2px solid orangered;
+    margin: 0px;
+    padding: 15px;
+}
+
+.red{
+    color: orangered;
+}
+
+footer{
+    grid-column: 2/3;
+    color: white;
+    text-align: center;
+}
